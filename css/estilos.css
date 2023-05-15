@@ -1,4 +1,112 @@
-body {background-color:sandybrown}
-h1 { border-style: dotted; color:rgb(151, 72, 72); text-decoration:underline}
-h3 { left: auto; color:rgb(151, 72, 72); font-size:x-large;}
-img {width: 375px;height: 375px;}
+body {background: sandybrown url(../imagenes/vacaspasto.jpg) fixed 1550px 850px;
+}
+
+#titulo {font-style: italic; text-align: center; font-size: 300%; border-style: dotted; color:rgb(160, 82, 45); text-decoration: underline;}
+.titulo2 {font-style: italic; font-size: 100%;}
+.subs {left:auto; color:rgb(160, 82, 45); font-size: x-large;}
+.listaingredientes {margin-left:1%; font-style: italic; padding: 7px;}
+.listapasos {margin-left:1% ; font-style: italic; padding: 7px;}
+.origen {font-family:fantasy; text-align: center; padding-bottom:1mm;}
+.pie {text-underline-position: below; padding: 1%;font-size: 120%; font-weight: 200;}
+.pregunta {padding-top: 3%; font-size: 130%; font-weight: 200;}
+.izquierda {padding: 1%;}
+.mapa {padding: 1%; border-style: groove;}
+header {background-color: rgb(255, 235, 205); margin: 25px; padding: 25px; border: 10px dotted rgb(160, 82, 45);}
+nav {background-color: peru; font-family:fantasy; text-align: center; padding-bottom:1mm;
+}
+
+.titulo2 {background-color: rgb(160, 82, 45)}
+.ingredientes {background-color:rgb(255, 235, 205);}
+.pasos {background-color:rgb(255, 235, 205);}
+.info {background-color: peru ;}
+footer {background-color: chocolate;}
+
+
+.links {
+    padding: 0;
+    width: 100%;;
+  }
+  .links {
+    display:inline;
+  }
+ .links a {
+    outline:double saddlebrown;
+    text-decoration:none;
+    display: inline-block;
+    width: 20.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+  } 
+  .links:last-child a {
+    margin-right: 0;
+  }
+  .links a:link, a:visited, a:focus {
+    background: rgb(255, 235, 205);
+  }
+  .links a:hover {
+    background: saddlebrown;
+  }
+  .links a:active {
+    background:  rgb(160, 82, 45);
+    color: white;
+  }
+
+      .origen a {
+        outline:double saddlebrown;
+        text-decoration:none;
+        display: inline-block;
+        width: 30.5%;
+        margin-right: 0.625%;
+        text-align: center;
+        line-height: 3;
+        color: black;
+      } 
+      .origen:last-child a {
+        margin-right: 0;
+      }
+      .origen a:link, a:visited, a:focus {
+        background: rgb(255, 235, 205);
+      }
+      .origen a:hover {
+        background: saddlebrown;
+      }
+      .origen a:active {
+        background:  rgb(160, 82, 45);
+        color: white;
+      }
+
+div.origen {
+    width: 75%;
+    margin: 15px ;
+    background-color: rgb(160, 82, 45);
+    font-style: italic; font-size:large;
+    padding: 30x;
+    bottom: 50%;
+  }
+  div.origen img.izquierda {
+    float: left;
+    margin-right: 10px;
+  }
+  div.reset {
+    clear: left;
+  }
+
+#whatsapp {
+    background: none;
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+ }
+
+ svg {
+    width: 80px;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+ }
+ circle {
+    fill: #25d366;
+ }
+ path {
+    fill: #fff;
+ }
