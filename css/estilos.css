@@ -1,19 +1,31 @@
-body {background: sandybrown url(../imagenes/vacaspasto.jpg) fixed 1550px 850px;
+body {background: sandybrown url(../imagenes/vacaspasto.jpg) fixed 1550px 850px; margin: 1%;
 }
 
-#titulo {font-style: italic; text-align: center; font-size: 300%; border-style: dotted; color:rgb(160, 82, 45); text-decoration: underline;}
+#titulo {font-style: italic; text-align: center; font-size: 300%; color:rgb(160, 82, 45);}
 .titulo2 {font-style: italic; font-size: 100%;}
 .subs {left:auto; color:rgb(160, 82, 45); font-size: x-large;}
+.recetassimilares {font-style:normal; font-size: xx-large; text-align:center; display: flex; align-items:end;}
+.ingredientes {flex-wrap: wrap;}
 .listaingredientes {margin-left:1%; font-style: italic; padding: 7px;}
-.listapasos {margin-left:1% ; font-style: italic; padding: 7px;}
-.origen {font-family:fantasy; text-align: center; padding-bottom:1mm;}
-.pie {text-underline-position: below; padding: 1%;font-size: 120%; font-weight: 200;}
-.pregunta {padding-top: 3%; font-size: 130%; font-weight: 200;}
-.izquierda {padding: 1%;}
-.mapa {padding: 1%; border-style: groove;}
-header {background-color: rgb(255, 235, 205); margin: 25px; padding: 25px; border: 10px dotted rgb(160, 82, 45);}
-nav {background-color: peru; font-family:fantasy; text-align: center; padding-bottom:1mm;
+.pasos {flex-wrap: wrap;}
+.listapasos {margin-left: 1%; font-style: italic; padding: 7px;}
+.info{margin-left:1mm; padding-inline-end: 1%; padding: 7px; flex-wrap: wrap; }
+.pie {font-size: 125%;font-weight: 200;}
+.pregunta {font-size: 130%; font-weight: 200;}
+.izquierda {border-color: peru;}
+
+
+header {background-color: rgb(255, 235, 205); margin: 10px; padding: 15px; border: 6px dotted rgb(160, 82, 45);
+    display:flex; justify-content: space-around; flex-wrap: wrap;
 }
+.social {display:flex; justify-content: space-around; align-self: center;
+        border: 1px hidden; padding: 10px; margin: 10px;
+}
+
+nav {background-color: peru; font-family:fantasy; text-align: center; padding-bottom:1mm; margin-top: 1mm;
+  display: flex; flex-direction: row; justify-content: center; align-items: center; flex-wrap: wrap;
+}
+
 
 .titulo2 {background-color: rgb(160, 82, 45)}
 .ingredientes {background-color:rgb(255, 235, 205);}
@@ -22,21 +34,24 @@ nav {background-color: peru; font-family:fantasy; text-align: center; padding-bo
 footer {background-color: chocolate;}
 
 
-.links {
+.links {list-style: none;
     padding: 0;
-    width: 100%;;
+    width: 100%;
   }
   .links {
-    display:inline;
+    font-family: fantasy;
+    display:flex;
+    justify-content: space-around;
   }
  .links a {
+  font-family: fantasy;
     outline:double saddlebrown;
     text-decoration:none;
     display: inline-block;
-    width: 20.5%;
+    width: 120%;
     margin-right: 0.625%;
     text-align: center;
-    line-height: 3;
+    line-height: 4;
     color: black;
   } 
   .links:last-child a {
@@ -53,45 +68,56 @@ footer {background-color: chocolate;}
     color: white;
   }
 
-      .origen a {
+.origen a {
+        align-self:center;
         outline:double saddlebrown;
         text-decoration:none;
         display: inline-block;
-        width: 30.5%;
+        width: 35.5%;
         margin-right: 0.625%;
-        text-align: center;
+        text-align:center;
+        font-family: fantasy;
         line-height: 3;
         color: black;
-      } 
-      .origen:last-child a {
+    } 
+  .origen:last-child a {
         margin-right: 0;
-      }
-      .origen a:link, a:visited, a:focus {
+    }
+  .origen a:link, a:visited, a:focus {
         background: rgb(255, 235, 205);
-      }
-      .origen a:hover {
+    }
+  .origen a:hover {
         background: saddlebrown;
-      }
-      .origen a:active {
+    }
+  .origen a:active {
         background:  rgb(160, 82, 45);
         color: white;
-      }
+    }
 
-div.origen {
-    width: 75%;
-    margin: 15px ;
+.origen {
+    margin: 1%; border: 1%; padding: 1%; bottom: 1%;
     background-color: rgb(160, 82, 45);
-    font-style: italic; font-size:large;
-    padding: 30x;
-    bottom: 50%;
+    font-style: italic; font-size:large; font-family: fantasy;
+    text-align: center;
+    display:flex; flex-wrap: wrap;
   }
-  div.origen img.izquierda {
-    float: left;
-    margin-right: 10px;
+
+
+
+footer {display: flex; justify-content: space-around;
+  flex-wrap: wrap;
   }
-  div.reset {
-    clear: left;
+
+.mapa {margin: 0; border: 0 hidden; padding: 1%;
+}
+
+.firma {list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
   }
+
+
 
 #whatsapp {
     background: none;
