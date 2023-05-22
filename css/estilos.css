@@ -100,8 +100,8 @@ footer {background-color: chocolate;}
     font-style: italic; font-size:large; font-family: fantasy;
     text-align: center;
     display:flex; flex-wrap: wrap;
+    justify-content: center;
   }
-
 
 
 footer {display: flex; justify-content: space-around;
