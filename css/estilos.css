@@ -1,28 +1,37 @@
+@font-face {
+  font-family: "jokerman";
+  src: url(../fuentes/JOKERMAN.TTF)
+  format("truetype");
+}
+
+
 body {background: sandybrown url(../imagenes/vacaspasto.jpg) fixed 1550px 850px; margin: 1%;
 }
 
-#titulo {font-style: italic; text-align: center; font-size: 300%; color:rgb(160, 82, 45);}
-.titulo2 {font-style: italic; font-size: 100%;}
+#titulo {font-family: "jokerman"; text-align: center; font-size: 300%; color:rgb(160, 82, 45);}
+.titulo2 {font-style: italic; font-size: 1.6em;}
 .subs {left:auto; color:rgb(160, 82, 45); font-size: x-large;}
 .recetassimilares {font-style:normal; font-size: xx-large; text-align:center; display: flex; align-items:end;}
-.ingredientes {flex-wrap: wrap;}
-.listaingredientes {margin-left:1%; font-style: italic; padding: 7px;}
-.pasos {flex-wrap: wrap;}
-.listapasos {margin-left: 1%; font-style: italic; padding: 7px;}
+.ingredientes {flex-wrap: wrap; width: 97vw;}
+.listaingredientes {margin-left:2%; font-style: italic; padding: 7px; font-size: 1.4rem;}
+.subs {margin-left: 1%;}
+.pasos {flex-wrap: wrap; width: 97vw;}
+.listapasos {margin-left: 2%; font-style: italic; padding: 7px; font-size: 1.4rem;}
 .info{margin-left:1mm; padding-inline-end: 1%; padding: 7px; flex-wrap: wrap; }
+.infoinfo {font-family: 'Josefin Slab', serif;}
 .pie {font-size: 125%;font-weight: 200;}
 .pregunta {font-size: 130%; font-weight: 200;}
-.izquierda {border-color: peru;}
+.izquierda {width: 50vw; height: 50vh;}
 
 
-header {background-color: rgb(255, 235, 205); margin: 10px; padding: 15px; border: 6px dotted rgb(160, 82, 45);
+header {background-color: rgb(255, 235, 205); margin: 5px; padding: 10px; border: 6px dotted rgb(160, 82, 45);
     display:flex; justify-content: space-around; flex-wrap: wrap;
 }
 .social {display:flex; justify-content: space-around; align-self: center;
         border: 1px hidden; padding: 10px; margin: 10px;
 }
 
-nav {background-color: peru; font-family:fantasy; text-align: center; padding-bottom:1mm; margin-top: 1mm;
+nav {background-color: peru; font-family:fantasy; text-align: center; padding-bottom:1mm;
   display: flex; flex-direction: row; justify-content: center; align-items: center; flex-wrap: wrap;
 }
 
@@ -36,24 +45,26 @@ footer {background-color: chocolate;}
 
 .links {list-style: none;
     padding: 0;
-    width: 100%;
+    width: 90vw;
   }
   .links {
     font-family: fantasy;
     display:flex;
     justify-content: space-around;
+    width: 98vw;
   }
  .links a {
   font-family: fantasy;
     outline:double saddlebrown;
     text-decoration:none;
     display: inline-block;
-    width: 120%;
+    width: 100%;
     margin-right: 0.625%;
     text-align: center;
     line-height: 4;
     color: black;
   } 
+
   .links:last-child a {
     margin-right: 0;
   }
