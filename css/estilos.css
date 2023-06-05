@@ -10,19 +10,17 @@ body {background: sandybrown url(../imagenes/vacaspasto.jpg) fixed 1550px 850px;
 
 #titulo {font-family: "jokerman"; text-align: center; font-size: 300%; color:rgb(160, 82, 45);}
 .titulo2 {font-style: italic; font-size: 1.6em;}
-.subs {left:auto; color:rgb(160, 82, 45); font-size: x-large;}
+.subs {margin-left: 2%; color:rgb(160, 82, 45); font-size: x-large;}
 .recetassimilares {font-style:normal; font-size: xx-large; text-align:center; display: flex; align-items:end;}
 .ingredientes {flex-wrap: wrap; width: 97vw;}
 .listaingredientes {margin-left:2%; font-style: italic; padding: 7px; font-size: 1.4rem;}
-.subs {margin-left: 1%;}
-.pasos {flex-wrap: wrap; width: 97vw;}
-.listapasos {margin-left: 2%; font-style: italic; padding: 7px; font-size: 1.4rem;}
+.pasos {display:flex; flex-wrap: wrap; width: 97vw;}
+.listapasos {margin-left: 2%; font-style: italic; padding: 1px; font-size: 1.4rem;}
 .info{margin-left:1mm; padding-inline-end: 1%; padding: 7px; flex-wrap: wrap; }
 .infoinfo {font-family: 'Josefin Slab', serif;}
+.izquierda {display: flex; justify-content: center; width: 50vw;}
 .pie {font-size: 125%;font-weight: 200;}
 .pregunta {font-size: 130%; font-weight: 200;}
-.izquierda {width: 50vw; height: 50vh;}
-
 
 header {background-color: rgb(255, 235, 205); margin: 5px; padding: 10px; border: 6px dotted rgb(160, 82, 45);
     display:flex; justify-content: space-around; flex-wrap: wrap;
@@ -32,9 +30,8 @@ header {background-color: rgb(255, 235, 205); margin: 5px; padding: 10px; border
 }
 
 nav {background-color: peru; font-family:fantasy; text-align: center; padding-bottom:1mm;
-  display: flex; flex-direction: row; justify-content: center; align-items: center; flex-wrap: wrap;
+  display: flex; flex-direction:column; justify-content: center; align-items: center; flex-wrap: wrap;
 }
-
 
 .titulo2 {background-color: rgb(160, 82, 45)}
 .ingredientes {background-color:rgb(255, 235, 205);}
@@ -45,23 +42,20 @@ footer {background-color: chocolate;}
 
 .links {list-style: none;
     padding: 0;
-    width: 90vw;
-  }
-  .links {
+    width: 80vw;
     font-family: fantasy;
     display:flex;
-    justify-content: space-around;
-    width: 98vw;
+    justify-content: space-between;
   }
  .links a {
   font-family: fantasy;
     outline:double saddlebrown;
     text-decoration:none;
     display: inline-block;
-    width: 100%;
+    width: 101%;
     margin-right: 0.625%;
     text-align: center;
-    line-height: 4;
+    line-height: 3;
     color: black;
   } 
 
@@ -80,12 +74,11 @@ footer {background-color: chocolate;}
   }
 
 .origen a {
-        align-self:center;
+        align-self:auto;
         outline:double saddlebrown;
         text-decoration:none;
         display: inline-block;
-        width: 35.5%;
-        margin-right: 0.625%;
+        width: 20%;
         text-align:center;
         font-family: fantasy;
         line-height: 3;
@@ -114,7 +107,6 @@ footer {background-color: chocolate;}
     justify-content: center;
   }
 
-
 footer {display: flex; justify-content: space-around;
   flex-wrap: wrap;
   }
@@ -127,7 +119,6 @@ footer {display: flex; justify-content: space-around;
   flex-direction: column;
   align-self: center;
   }
-
 
 
 #whatsapp {
