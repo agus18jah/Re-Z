@@ -10,13 +10,14 @@ body {background: sandybrown url(../imagenes/vacaspasto.jpg) fixed 1550px 850px;
 
 #titulo {font-family: "jokerman"; text-align: center; font-size: 300%; color:rgb(160, 82, 45);}
 .titulo2 {font-style: italic; font-size: 1.6em;}
-.subs {margin-left: 2%; color:rgb(160, 82, 45); font-size: x-large;}
+h2 {margin-left: 1%;}
+.subs {margin-left: 1%; color:rgb(160, 82, 45); font-size: x-large;}
 .recetassimilares {font-style:normal; font-size: xx-large; text-align:center; display: flex; align-items:end;}
-.ingredientes {flex-wrap: wrap; width: 97vw;}
-.listaingredientes {margin-left:2%; font-style: italic; padding: 7px; font-size: 1.4rem;}
-.pasos {display:flex; flex-wrap: wrap; width: 97vw;}
-.listapasos {margin-left: 2%; font-style: italic; padding: 1px; font-size: 1.4rem;}
-.info{margin-left:1mm; padding-inline-end: 1%; padding: 7px; flex-wrap: wrap; }
+.ingredientes {margin:1%; display:flex; flex-wrap: wrap; width: 97vw;}
+.listaingredientes {margin-left: 4%; font-style: italic; padding: 2px; font-size: 1.4rem;}
+.pasos {margin: 1%; display:flex; flex-wrap: wrap; width: 95vw;}
+.listapasos {margin-left: 4%; font-style: italic; padding: 2px; font-size: 1.4rem;}
+.info{margin: 1%;; padding-inline-end: 50%; padding: 10px; flex-wrap: wrap; }
 .infoinfo {font-family: 'Josefin Slab', serif;}
 .izquierda {display: flex; justify-content: center; width: 50vw;}
 .pie {font-size: 125%;font-weight: 200;}
@@ -33,11 +34,35 @@ nav {background-color: peru; font-family:fantasy; text-align: center; padding-bo
   display: flex; flex-direction:column; justify-content: center; align-items: center; flex-wrap: wrap;
 }
 
+.uno {display: flex; flex-direction: row-reverse; justify-content: space-evenly; align-items: self-start;}
+
 .titulo2 {background-color: rgb(160, 82, 45)}
 .ingredientes {background-color:rgb(255, 235, 205);}
 .pasos {background-color:rgb(255, 235, 205);}
 .info {background-color: peru ;}
 footer {background-color: chocolate;}
+
+@media (max-width:767px) {
+  nav {background:none;}
+}
+@media (max-width: 767px) {
+  .recetassimilares {font-size: 250%; color: chocolate; font-family: 'Josefin Slab';}
+}
+@media (max-width:767px) {
+  .listaingredientes {margin-left:5%;}
+  .listapasos {margin-left:5%;}
+}
+
+@media (min-width:767px) {
+  .linkwhatsapp {display: none;}
+}
+@media (min-width:992px) {
+  .video {display: none}
+}
+
+@media (max-width: 991px) {
+  .recetassimilares {font-size: 300%; font-family: "Verdana", Geneva, Tahoma, sans-serif; font-weight: bolder;}
+}
 
 
 .links {list-style: none;
