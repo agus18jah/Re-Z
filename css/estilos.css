@@ -132,6 +132,10 @@ footer {background-color: chocolate;}
     justify-content: center;
   }
 
+.container-fluid {display:flex; justify-content: space-around;}
+.fotorecetas {width: 100%;}
+.card-body {background-color: peru;}
+
 footer {display: flex; justify-content: space-around;
   flex-wrap: wrap;
   }
