@@ -5,13 +5,14 @@
 }
 
 
-body {background: sandybrown url(../imagenes/vacaspasto.jpg) fixed 1550px 850px; margin: 1%;
+body {background: sandybrown  fixed 1550px 850px; margin: 1%;
 }
 
 #titulo {font-family: "jokerman"; text-align: center; font-size: 300%; color:rgb(160, 82, 45);}
 .titulo2 {font-style: italic; font-size: 1.6em;}
 h2 {margin-left: 1%;}
 .subs {margin-left: 1%; color:rgb(160, 82, 45); font-size: x-large;}
+.inclusivo {background-color: peru; display: grid; place-items: center;}
 .recetassimilares {font-style:normal; font-size: xx-large; text-align:center; display: flex; align-items:end;}
 .ingredientes {margin:1%; display:flex; flex-wrap: wrap; width: 97vw;}
 .listaingredientes {margin-left: 4%; font-style: italic; padding: 2px; font-size: 1.4rem;}
@@ -135,10 +136,14 @@ footer {background-color: chocolate;}
 .container-fluid {display:flex; justify-content: space-around;}
 .fotorecetas {width: 100%;}
 .card-body {background-color: peru;}
+.card {height:auto}
 
 footer {display: flex; justify-content: space-around;
   flex-wrap: wrap;
   }
+
+.copy {display:grid; place-items: center; margin: auto;
+}
 
 .mapa {margin: 0; border: 0 hidden; padding: 1%;
 }

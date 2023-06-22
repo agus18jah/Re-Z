@@ -9,14 +9,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Recetas Argentinas</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
         <link rel="stylesheet" href="./css/estilos.css">
-      
+
+        <script src="./js/proyecto2.js"></script>
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,700&display=swap" rel="stylesheet">
     </head>
     <body>
-    <!--Aquí tienes que colocar la foto del producto-->
+
+    <section class="inclusivo">
+      <h4>Si tenes dificultades para ver la página de manera correcta, probá haciendo</h4>
+      <button onclick="cambiotema()">Click Acá</button>
+    </section>
+
     <header>
       <div>
        <img class="logo" src="./imagenes/banderalogo.png"></a>  
@@ -99,45 +107,45 @@
       <div class="row">
 
       <div class="uno col-sm-12 col-md-6 col-lg-3" >
-         <div class="card" style="max-width:350px;">
+         <div class="card">
             <img class="fotorecetas" src="./imagenes/vegano.jpg" class="card-img-top" alt="fotodulcevegano">
             <div class="card-body">
               <h5 class="card-title" style="font-family: fantasy; text-align: center;">Dulce de Leche Vegano</h5>
               <p class="card-text">Conocé el paso a paso de está moderna opción de preparar el dulce de leche, sin utilizar derivados de origen animal.</p>
-              <a href="https://www.vegaffinity.com/comunidad/receta/dulce-de-leche-vegano--r434" class="btn btn-warning">Ver Receta</a>
+              <a href="https://www.vegaffinity.com/comunidad/receta/dulce-de-leche-vegano--r434" class="btn btn-warning" target="_blank">Ver Receta</a>
             </div>
          </div>
       </div>
 
       <div class="uno col-sm-12 col-md-6 col-lg-3" >
-         <div class="card" style="max-width:350px;">
+         <div class="card">
             <img class="fotorecetas" src="./imagenes/sinazucar.jpg" class="card-img-top" alt="fotodulcesinazucar">
             <div class="card-body">
                <h5 class="card-title" style="font-family: fantasy; text-align: center;">Dulce de Leche Sin Azucar</h5>
                <p class="card-text">Probá ésta increible receta, apta para diabeticos.</p>
-               <a href="https://dulcesdiabeticos.com/dulce-de-leche-sin-azucar/" class="btn btn-warning">Ver Receta</a>
+               <a href="https://dulcesdiabeticos.com/dulce-de-leche-sin-azucar/" class="btn btn-warning" target="_blank">Ver Receta</a>
              </div>
          </div>
       </div>
 
       <div class="uno col-sm-12 col-md-6 col-lg-3" >
-         <div class="card " style="max-width:350px">
+         <div class="card">
              <img src="./imagenes/almendras.jpg" class="card-img-top" alt="fotodulcealmendras">
              <div class="card-body">
                <h5 class="card-title" style="font-family: fantasy; text-align: center;">Dulce de Leche de Almendras</h5>
                <p class="card-text">¿Sabías que se puede hacer dulce de leche con almendras? Es una receta perfecta para veganos, intolerantes a la lactosa y celíacos, además de deliciosa y saludable.</p>
-               <a href="https://www.disfrutarosario.com/dulce-de-leche-de-almendras/" class="btn btn-warning">Ver Receta</a>
+               <a href="https://www.disfrutarosario.com/dulce-de-leche-de-almendras/" class="btn btn-warning" target="_blank">Ver Receta</a>
              </div>
          </div>
       </div>
 
       <div class="uno col-sm-12 col-md-6 col-lg-3" > 
-         <div class="card " style="max-width:350px;">
+         <div class="card">
              <img src="./imagenes/cabra.jpg" class="card-img-top" alt="fotodulcecabra">
              <div class="card-body">
                <h5 class="card-title" style="font-family: fantasy; text-align: center;">Dulce de Leche de Cabra</h5>
                <p class="card-text">Conocé otra manera de elaborar dulce de leche, pero en ésta ocasión, con leche de cabra, conservando perfectamente el autentico sabor tradicional.</p>
-               <a href="https://pasteleriaparatodos.com/dulce-de-leche-de-cabra/" class="btn btn-warning">Ver Receta</a>
+               <a href="https://pasteleriaparatodos.com/dulce-de-leche-de-cabra/" class="btn btn-warning" target="_blank">Ver Receta</a>
              </div>
          </div>
       </div>
@@ -156,6 +164,9 @@
          <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./imagenes/iconolinkedin.png" alt="linkedin"></a>
          <a href="https://www.instagram.com/" target="_blank"><img src="./imagenes/iconoinstagram.png" alt="instagram"></a>
       </div> 
+      <section class="copy">
+      <button onclick="copyright()">Copyright ©</button>
+      </section>
       <ul class="firma">
          <h3>Agustin Garcia</h3>
          <h3>Desarrollo Web</h3>
@@ -176,5 +187,6 @@
       </a>
  </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    </body>
+      
+      </body>
 </html>
