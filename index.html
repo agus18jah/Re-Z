@@ -8,19 +8,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Recetas Argentinas</title>
+
+        <script> alert ("Bienvenidxs al grandioso mundo del Dulce de Leche") </script>
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
         <link rel="stylesheet" href="./css/estilos.css">
-
-        <script src="./js/proyecto2.js"></script>
-
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,700&display=swap" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="./favicon_io/site.webmanifest">
     </head>
     <body>
 
-    <section class="inclusivo">
+    <section id="inclusivo">
       <h4>Si tenes dificultades para ver la página de manera correcta, probá haciendo</h4>
       <button onclick="cambiotema()">Click Acá</button>
     </section>
@@ -37,8 +42,8 @@
          <a href="https://www.instagram.com/" target="_blank"><img src="./imagenes/iconoinstagram.png" alt="instagram"></a>
       </div>
     </header>
-   <nav>
-      <h3 class="recetassimilares">RECETAS SIMILARES:</h3>
+   <nav id="principal">
+      <h3 id="recetassimilares">RECETAS SIMILARES:</h3>
       <ul class="links">
          <li class="vegano"><a href="https://www.vegaffinity.com/comunidad/receta/dulce-de-leche-vegano--r434" target="_blank">Dulce de Leche Vegano</a></li>
          <li class="sinazucar"><a href="https://dulcesdiabeticos.com/dulce-de-leche-sin-azucar/ " target="_blank">Dulce de Leche Sin Azucar</a></li>
@@ -48,7 +53,7 @@
     </nav>
 
 
-    <section class="titulo2">
+    <section id="titulo2">
         <h2>Acá te dejamos la clásica receta del tradicional dulce de leche casero argentino:</h2>
     </section>
 
@@ -56,7 +61,8 @@
     <section class="video">
       <iframe width="332" height="590" src="https://www.youtube.com/embed/NEunwxOo3is" title="Receta de dulce de leche argentino" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
-    <section class="ingredientes">
+
+    <section id="ingredientes">
       <h3 class="subs">Lo que necesitas:</h3>
      <ul class ="listaingredientes"> 
         <li>1 litro de leche entera</li> 
@@ -64,9 +70,9 @@
         <li>1 cucharadita de bicarbonato de sodio</li>
      </ul>
    </section>
-
    </section>
-    <section class="pasos">
+
+    <section id="pasos">
       <h3 class="subs">Manos a la obra:</h3>
      <ol class="listapasos">
          <li>En una olla de fondo grueso colocar el azúcar y la leche.</li>
@@ -81,7 +87,7 @@
      </ol>
     </section>
    
-    <section class="info">
+    <section id="info">
         <h2>Info útil:</h2>
        <div class="infoinfo">
           <p>Para tener 1 kilo de dulce de leche casero, van a necesitar 2 litros de leche.</p>
@@ -91,7 +97,7 @@
        </div>
     </section>
 
-    <div class="origen">
+    <div id="origen">
       <div class="izquierda">
          <img class="img" src="./imagenes/dulce_de_leche_300x300.jpg">
       </div>
@@ -101,6 +107,7 @@
          <h4 class="pregunta">Ya conocias esta historia? O también te sorprendiste?</h4>
       </div>
    </div>
+
 <section>
    <div class="container-fluid">
 
@@ -187,6 +194,6 @@
       </a>
  </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-      
+        <script src="./js/proyecto2.js"></script>
       </body>
 </html>
